@@ -14,7 +14,7 @@ if __name__ == '__main__':
     rootpath = ""
     while not os.path.isdir(rootpath):
         rootpath = input("Enter root of discord data: ") + "/messages"
-    timezone = input("Enter time Zone (this wont be checked): ") or "UTC"
+    timezone = input("Enter time Zone, empty for UTC (this wont be checked): ") or "UTC"
 
     combined = pd.Series([])
     channels = {}
