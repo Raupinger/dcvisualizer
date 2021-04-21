@@ -5,7 +5,7 @@ All in all the code quality is very much hackerton-grade. Decided to put it up o
 
 Heres a quick guide on how to use it:
 1. Install the dependencies. Everything besides plotly and pandas should already be on your system.
-2. (Request your data from Discord.)[https://support.discord.com/hc/en-us/articles/360004027692-Requesting-a-Copy-of-your-Data]
+2. [Request your data from Discord.](https://support.discord.com/hc/en-us/articles/360004027692-Requesting-a-Copy-of-your-Data)
 3. Wait a couple of hours or days to get a cringy email with the data
 4. Download and extract it
 5. Run the script. It will ask for the directory where the data was extracted, your time zone and which server you want to look at.
