@@ -10,3 +10,6 @@ Heres a quick guide on how to use it:
 4. Download and extract it
 5. Run the script. It will ask for the directory where the data was extracted, your time zone and which server you want to look at.
 6. If it worked, a browser window with the graph should open.
+
+Here's an image of what the result looks like:
+![](example.png)
