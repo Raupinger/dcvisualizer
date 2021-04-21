@@ -32,7 +32,7 @@ if __name__ == '__main__':
         i += 1
     while selection == None:
         try:
-            selection = channellist[int(input("Select Guild Nr.: "))]["guild"]["id"]
+            selection = guildlist[int(input("Select Guild Nr.: ")) - 1]["id"]
         except:
             ()
     print("calculating...")
@@ -51,7 +51,7 @@ if __name__ == '__main__':
                     # print(prepared.index.max())
                     combined = prepared.combine(other=combined, func=lambda a, b: a + b, fill_value=0)
 
-                    channels[channeldata["name"]] = prepared.rolling('60min').mean()
+                    channels[channel["name"]] = prepared.rolling('60min').mean()
                 except:
                     print("couldn't parse data for channel " + channel["name"] + " cause: " + str(sys.exc_info()[0]))
                     print(sys.exc_info()[0])
